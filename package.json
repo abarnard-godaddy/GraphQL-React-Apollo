@@ -1,0 +1,30 @@
+{
+  "name": "graphql-react-apollo",
+  "version": "1.0.0",
+  "description": "spaceX api app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barnard349/GraphQL-React-Apollo.git"
+  },
+  "author": "APB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barnard349/GraphQL-React-Apollo/issues"
+  },
+  "homepage": "https://github.com/barnard349/GraphQL-React-Apollo#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.17.0",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
